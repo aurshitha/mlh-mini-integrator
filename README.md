@@ -109,21 +109,21 @@ curl -X POST http://localhost:3000/webhook \
 
 ## 🧠 Features Implemented
 
-### ✔ Receive and process webhook requests
+### Receive and process webhook requests
 
 Handles JSON payloads and safely processes event data.
 
-### ✔ Slack integration (basic formatting)
+### Slack integration (basic formatting)
 
 Incoming events are forwarded to Slack using standard message text.
 
-### ✔ Conditional filtering
+### Conditional filtering
 
 Events can be ignored if they don’t meet processing rules.
 
 For example: only send alerts if `score >= 50`.
 
-### ✔ Persistent request logging
+### Persistent request logging
 
 Every webhook call is logged into `webhook.log` for auditing.
 
